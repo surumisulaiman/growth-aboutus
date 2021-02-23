@@ -13,20 +13,7 @@
     padding: 0;
     
 }
-/* 
-@font-face {
-    font-family: "CenturyGothic";
-    src: url("../fonts/CenturyGothicBold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "CenturyGothic";
-    src: url("../fonts/CenturyGothicRegular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  } */
+
 
 body{
     font-family:"mulish";
@@ -95,45 +82,40 @@ a {
     justify-content: center;  
 }
 .img1{
-    /* padding-left: 20px;  */
     width: 60%;
     margin-top: 100px;    
 }
 
-.link1{
+.link{
     margin-right: 30px;
     color: var(--black);
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-    
+    position: relative;
 }
-.link2{
-    margin-right: 30px;
-    font-family: Gloria Hallelujah;
-    color: var(--black);
-}.link3{
-    margin-right: 30px;
-    color: var(--black);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
+
+
+.yourpains::before{
+    position: absolute;
+    top:-25;
+    left:0;
+    content: "";
+    background: url(../images/yourpains.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 2px;
+    float: left;
+   
 }
-.link4{
-    margin-right: 20px;
-    color: var(--black);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
-}
+
 .nav_button{
     margin-right: 30px;
     color: var(--white);
-    /* padding-right: 72px; */
     font-weight: 700;
     background-color: var(--black); 
-    /* align-items: center; 
-    text-align: center; */
     padding: 16px;
     border-radius: 5px;
     font-size: 18px;
@@ -150,7 +132,7 @@ a {
 .para{
     margin-bottom: 20px;
     text-align: justify;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 150%; 
     margin-top: 24px;
 
@@ -395,16 +377,31 @@ justify-content: space-between;
 
                         .nav_items a{
                         color: black;
-                        /* padding: 15px 10px; */
+                        width: 100%;
                         text-decoration: none;
                         font-size: 14px;
                         line-height: 40px;
                         display: flex;
                         }
 
-                        .logo{
-                            /* justify-content: flex-start;  */
-                            
+
+
+
+
+                        
+                        
+                        .yourpains::before{
+                            position: absolute;
+                            top: 4px;
+                            left: 76px;
+                            content: "";
+                            background-size: 40% 64%;
+                            background-image: center;
+                            width: 100%;
+                            height: 100%;
+                            margin: 2px;
+                            float: left;
+                           
                         }
                         .nav_button{
                             margin-right: 20px;
