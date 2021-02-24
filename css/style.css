@@ -220,7 +220,10 @@ a:active {
     
 
 } 
+li a:hover{
+    color: var(--white);
 
+}
 
 
 /* Footer last section */
