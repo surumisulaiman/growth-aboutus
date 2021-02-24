@@ -167,10 +167,9 @@ a:active {
 .footer_image{
     width: 100%;
     height: auto;
-    
     margin: auto;
     margin-top: 46px;
-   margin-bottom: -2px;
+    margin-bottom: -2px;
 
 }
 .footer_container{
